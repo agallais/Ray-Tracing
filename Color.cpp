@@ -21,7 +21,7 @@ Color::~Color()
 
 void Color::intensity(double lvl)
 {
-	blue = (int)255 * lvl;
-	green = (int)255 * lvl;
-	red = (int)255 * lvl;
+	blue = (int) blue * lvl;
+	green = (int) green * lvl;
+	red = (int) red * lvl;
 }
